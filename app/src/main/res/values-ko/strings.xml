@@ -346,12 +346,12 @@
     <!-- Headers -->
     <string name="pref_header_appearance">Appearance</string>
     <string name="pref_header_behavior">Behavior</string>
-    <string name="pref_header_storage">Storage</string>
+    <string name="pref_header_storage">저장소</string>
     <string name="pref_header_limitations">Limitations</string>
     <string name="pref_header_network">Network</string>
     <string name="pref_header_scheduling">Scheduling</string>
     <string name="pref_header_feed">RSS</string>
-    <string name="pref_header_streaming">Streaming</string>
+    <string name="pref_header_streaming">스트리밍</string>
     <!-- Storage settings -->
     <string name="pref_save_torrents_in_title">Save torrents in</string>
     <string name="pref_move_after_download_title">Move after download</string>
