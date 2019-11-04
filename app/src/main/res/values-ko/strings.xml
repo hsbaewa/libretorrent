@@ -203,8 +203,8 @@
     <string name="file_priority_low">Ignore</string>
     <string name="file_priority_high">High</string>
     <string name="file_priority_mixed">Mixed</string>
-    <string name="change_priority">Priority</string>
-    <string name="dialog_change_priority_title">Change priority</string>
+    <string name="change_priority">우선순위</string>
+    <string name="dialog_change_priority_title">우선순위 변경</string>
     <string name="change_priority_low">Low (ignore file)</string>
     <string name="change_priority_normal">Normal</string>
     <string name="change_priority_high">High</string>
@@ -225,40 +225,40 @@
     <!-- downloaded/total (piece length) -->
     <string name="torrent_pieces_template" formatted="false">%1$d/%2$d (%3$s)</string>
     <string name="torrent_trackers">트래커</string>
-    <string name="tracker_state_working">Working</string>
-    <string name="tracker_state_not_working">Not working</string>
+    <string name="tracker_state_working">작업중</string>
+    <string name="tracker_state_not_working">작업중이 아님</string>
     <string name="tracker_state_error" formatted="false">Error: %1$s</string>
     <string name="tracker_state_updating">Updating&#8230;</string>
-    <string name="tracker_state_not_contacted">Not contacted yet</string>
-    <string name="share_tracker_url">Share URL</string>
+    <string name="tracker_state_not_contacted">아직 연결되지 않음</string>
+    <string name="share_tracker_url">URL 공유</string>
     <string name="delete_selected_tracker">선택된 트래커를 삭제하시겠습니까?</string>
     <string name="delete_selected_trackers">선택된 트래커를 모두 삭제하시겠습니까?</string>
     <string name="add_trackers">트래커 추가</string>
-    <string name="dialog_add_trackers">(One per line)</string>
+    <string name="dialog_add_trackers">(1줄당 1개)</string>
     <string name="open_using">Open using</string>
     <string name="peer_port" formatted="false">포트: %1$d</string>
     <string name="peer_relevance" formatted="false">Relevance: %1$.1f</string>
     <string name="peer_connection_type" formatted="false">Connection: %1$s</string>
     <!-- ↓ total download • ↑ total upload -->
     <string name="peer_total_download_upload" formatted="false">\u2193 %1$s \u2022 \u2191 %2$s</string>
-    <string name="peer_client" formatted="false">Client: %1$s</string>
+    <string name="peer_client" formatted="false">클라이언트: %1$s</string>
     <string name="peer_connection_type_bittorrent">BT</string>
     <string name="peer_connection_type_web">Web</string>
     <string name="peer_connection_type_utp">μTP</string>
     <string name="peer_list_empty">이 토렌트는 아직 연결된 피어가 없습니다.</string>
-    <string name="piece_map">Pieces map</string>
+    <string name="piece_map">조각맵</string>
     <string name="resume_torrent">재개</string>
     <string name="pause_torrent">일시중지</string>
     <string name="share_magnet">마그넷 공유</string>
     <string name="save_torrent_file">토렌트 파일 저장</string>
-    <string name="torrent_speed_limit">Speed limit</string>
+    <string name="torrent_speed_limit">속도 제한</string>
     <string name="share_via">Share via</string>
     <string name="save_torrent_file_successfully">토렌트 파일을 정상적으로 저장하였습니다.</string>
     <string name="error_save_torrent_file">토렌트 파일 저장에 실패하였습니다.</string>
     <string name="speed_limit_title">최대 속도</string>
     <string name="upload_speed">업로드</string>
     <string name="download_speed">다운로드</string>
-    <string name="speed_limit_dialog">Set speed in KiB/s (0 - without limit)</string>
+    <string name="speed_limit_dialog">KiB/s로 속도 설정 (0 - 제한없음)</string>
     <string name="torrent_added_date">Added</string>
     <string name="torrent_availability">Availability</string>
     <string name="share_stream_url">Share stream URL</string>
@@ -275,10 +275,10 @@
 
     <!-- Feeds -->
     <string name="feed">RSS</string>
-    <string name="feed_channel_list_empty">No channels</string>
-    <string name="select_or_add_feed_channel">Select or add an RSS/Atom channel</string>
-    <string name="add_feed_channel">Add channel</string>
-    <string name="feed_name">Name (optional)</string>
+    <string name="feed_channel_list_empty">채널이 없습니다.</string>
+    <string name="select_or_add_feed_channel">RSS/Atom 채널을 선택 또는 추가하세요.</string>
+    <string name="add_feed_channel">채널 추가</string>
+    <string name="feed_name">이름(선택항목)</string>
     <string name="feed_filter_prompt">Enter the words (separated by \"|\"), one of which must be in the name or enter regular expression. Torrents will be added only if this filter matches the torrent name</string>
     <string name="feed_auto_download">Download new torrents automatically</string>
     <string name="feed_use_regex">Use regular expression</string>
@@ -286,12 +286,12 @@
     <string name="export_feed_channels">Export channels</string>
     <string name="feed_last_update_template" formatted="false">Updated: %1$s</string>
     <string name="feed_last_update_never">never</string>
-    <string name="error_cannot_add_channel">Cannot add channel</string>
+    <string name="error_cannot_add_channel">채널을 추가 할 수 없습니다.</string>
     <string name="copy_link">Copy link</string>
-    <string name="delete_selected_channel">Delete the selected channel?</string>
-    <string name="delete_selected_channels">Delete the selected channels?</string>
-    <string name="edit_feed_channel">Edit channel</string>
-    <string name="link_copied_to_clipboard">Link copied to clipboard</string>
+    <string name="delete_selected_channel">선택된 채널을 삭제하시겠습니까?</string>
+    <string name="delete_selected_channels">선택된 채널들을 삭제하시겠습니까?</string>
+    <string name="edit_feed_channel">채널 수정</string>
+    <string name="link_copied_to_clipboard">링크가 클립보드에 복사되었습니다.</string>
     <string name="mark_as_read">Mark as read</string>
     <string name="feed_item_list_empty">No articles</string>
     <string name="feed_items">Articles</string>
@@ -347,8 +347,8 @@
     <string name="pref_header_appearance">Appearance</string>
     <string name="pref_header_behavior">Behavior</string>
     <string name="pref_header_storage">저장소</string>
-    <string name="pref_header_limitations">Limitations</string>
-    <string name="pref_header_network">Network</string>
+    <string name="pref_header_limitations">제한설정</string>
+    <string name="pref_header_network">네트워크</string>
     <string name="pref_header_scheduling">Scheduling</string>
     <string name="pref_header_feed">RSS</string>
     <string name="pref_header_streaming">스트리밍</string>
@@ -363,11 +363,11 @@
     <string name="pref_watch_dir_summary">The torrent files (with .torrent extension) are watched in the specified directory and automatically added. The torrent files are deleted after adding</string>
     <string name="pref_dir_to_watch_title">Directory to watch</string>
     <!-- Limitations settings -->
-    <string name="pref_speed_category">Speed</string>
-    <string name="pref_max_download_speed_title">Maximum download speed</string>
-    <string name="pref_max_upload_speed_title">Maximum upload speed</string>
-    <string name="pref_max_connections_title">Maximum number of connections</string>
-    <string name="pref_max_connections_summary">Minimum number of connections - 2</string>
+    <string name="pref_speed_category">속도</string>
+    <string name="pref_max_download_speed_title">최대 다운로드 속도</string>
+    <string name="pref_max_upload_speed_title">최대 업로드 속도</string>
+    <string name="pref_max_connections_title">최대 연결 갯수</string>
+    <string name="pref_max_connections_summary">최소 연결 갯수 - 2</string>
     <string name="pref_torrent_queueing_category">Torrent queueing</string>
     <string name="pref_max_active_uploads_title">Maximum active uploads</string>
     <string name="pref_max_active_downloads_title">Maximum active downloads</string>
@@ -380,18 +380,18 @@
     <string name="pref_auto_manage_summary">The torrent may be resumed or paused automatically at any point. Enabling this option may slow down the pause/resume</string>
     <string name="pref_max_active_uploads_downloads_dialog_msg">-1 without limit</string>
     <!-- Appearance settings -->
-    <string name="pref_theme_category">Theme settings</string>
-    <string name="pref_theme_title">Theme</string>
+    <string name="pref_theme_category">테마 설정</string>
+    <string name="pref_theme_title">테마</string>
     <string-array name="pref_theme_entries">
         <item>Light</item>
         <item>Dark</item>
         <item>Black</item>
     </string-array>
-    <string name="pref_notification_category">Notification settings</string>
-    <string name="pref_torrent_finish_notify_title">Torrent finish notification</string>
+    <string name="pref_notification_category">알림 설정</string>
+    <string name="pref_torrent_finish_notify_title">토렌트 완료 알림</string>
     <string name="pref_torrent_finish_notify_summary">Show a notification when a torrent finishes downloading</string>
-    <string name="pref_play_sound_notify_title">Play sound</string>
-    <string name="pref_notify_sound_title">Notification sound</string>
+    <string name="pref_play_sound_notify_title">소리 재생</string>
+    <string name="pref_notify_sound_title">알림 소리</string>
     <string name="pref_led_indicator_notify_title">LED indicator</string>
     <string name="pref_led_indicator_color_notify_title">LED indicator color</string>
     <string name="pref_vibration_notify_title">Vibration</string>
@@ -456,27 +456,27 @@
         <item>SOCKS5</item>
         <item>HTTP</item>
     </string-array>
-    <string name="pref_proxy_address_title">Address</string>
-    <string name="pref_proxy_port_title">Port</string>
+    <string name="pref_proxy_address_title">주소</string>
+    <string name="pref_proxy_port_title">포트</string>
     <string name="pref_proxy_peers_too_title">Also use for peer connections</string>
     <string name="pref_proxy_peers_too_summary">The proxy will be used for connecting with trackers, peers and web seeds</string>
     <string name="pref_force_proxy_title">Disable connections not supported by proxies</string>
     <string name="pref_proxy_requires_auth_title">Requires authorization</string>
     <string name="pref_proxy_requires_auth_summary">Warning: the password is saved unencrypted</string>
-    <string name="pref_proxy_login_title">Login</string>
-    <string name="pref_proxy_password_title">Password</string>
+    <string name="pref_proxy_login_title">로그인</string>
+    <string name="pref_proxy_password_title">비밀번호</string>
     <!-- Schedule settings -->
     <string name="pref_enable_scheduling_start_title">Start time</string>
     <string name="pref_enable_scheduling_start_summary">Start app at the specified time. Torrents will run according to their state before the last shutdown</string>
     <string name="pref_enable_scheduling_shutdown_title">Shutdown time</string>
     <string name="pref_enable_scheduling_shutdown_summary">Shutdown app at the specified time</string>
     <string name="pref_scheduling_run_only_once_title">Run only once</string>
-    <string name="pref_scheduling_switch_wifi_title">Enable/disable Wi-Fi</string>
+    <string name="pref_scheduling_switch_wifi_title">활성/비활성 Wi-Fi</string>
     <string name="pref_scheduling_switch_wifi_summary">Wi-Fi is automatically enabled when app is launched at the scheduled time and is disabled after app is shutdown at the scheduled time</string>
     <!-- Feed settings -->
     <string name="pref_feed_auto_refresh_title">Auto refresh channels</string>
     <string name="pref_feed_auto_refresh_summary">Periodically refresh channels in the background</string>
-    <string name="pref_feed_refresh_interval_title">Refresh interval</string>
+    <string name="pref_feed_refresh_interval_title">갱신 주기</string>
     <string-array name="pref_feed_refresh_intervals_entries">
         <item>5 분</item>
         <item>15 분</item>
