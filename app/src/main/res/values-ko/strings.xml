@@ -17,7 +17,7 @@
     <string name="save">저장</string>
     <string name="install">설치</string>
     <string name="search">검색</string>
-    <string name="not_available">실행불</string>
+    <string name="not_available">실행불가</string>
     <!-- 1 d. 1 h. 1 m -->
     <string name="elapsed_time_format_d_h_mm">%1$d 일. %2$d 시간. %3$d 분</string>
     <!-- 1 h. 1 m. 1 s -->
@@ -46,12 +46,12 @@
     <string name="delete_torrent_with_downloaded_files">다운로드 된 파일을 포함하여 삭제</string>
     <string name="delete_selected_torrent">선택된 토렌트를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</string>
     <string name="delete_selected_torrents">선택된 토렌트를 모두 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</string>
-    <string name="force_recheck_torrent">Force recheck</string>
+    <string name="force_recheck_torrent">강제 재확인</string>
     <string name="force_announce_torrent">Force announce</string>
     <string name="add_link">링크 추가</string>
     <string name="dialog_add_link_title">해시값, 마그넷 링크, 또는 Http/Https 링크를 입력하세요.</string>
     <string name="torrent_list_empty">추가된 토렌트가 없습니다.</string>
-    <string name="select_or_add_torrent">Select or add a torrent</string>
+    <string name="select_or_add_torrent">토렌트를 선택 또는 추가</string>
     <string name="error_empty_link">링크를 입력해 주세요.</string>
     <string name="error_invalid_link">유효하지 않은 링크</string>
     <string name="error_open_torrent_file">토렌트 파일을 열 수 없습니다.</string>
@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">다운로드중: %1$d 전체: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent running in the background</string>
+    <string name="app_running_in_the_background">LibreTorrent가 백그라운드에서 실행중입니다.</string>
     <string name="network_online">네트워크 상태: 온라인</string>
     <string name="network_offline">네트워크 상태: 오프라인</string>
 
@@ -163,11 +163,11 @@
     <string name="torrent_size">크기</string>
     <string name="torrent_file_count">파일 갯수</string>
     <string name="torrent_hash_sum">Hash sum</string>
-    <string name="torrent_comment">Comment</string>
+    <string name="torrent_comment">코멘트</string>
     <string name="torrent_create_date">Created</string>
     <string name="torrent_created_in_program">Created in program</string>
-    <string name="sequential_download">Sequential download</string>
-    <string name="enable_sequential_download">Enable sequential download</string>
+    <string name="sequential_download">순차 다운로드</string>
+    <string name="enable_sequential_download">순차 다운로드 활성화</string>
 
     <!-- Filemanager dialog -->
     <string name="dir_chooser_title">폴더 선택</string>
@@ -200,7 +200,7 @@
     <!-- priority • downloaded/total • percent • availability -->
     <string name="file_downloading_status_template" formatted="false">%1$s \u2022 %2$s/%3$s \u2022 %4$d%% \u2022\n유효: %5$s</string>
     <string name="file_priority_normal">Normal</string>
-    <string name="file_priority_low">Ignore</string>
+    <string name="file_priority_low">무시</string>
     <string name="file_priority_high">High</string>
     <string name="file_priority_mixed">Mixed</string>
     <string name="change_priority">우선순위</string>
@@ -212,8 +212,8 @@
     <string name="torrent_speed">Speed</string>
     <string name="torrent_downloaded">Downloaded</string>
     <string name="torrent_ETA">ETA</string>
-    <string name="torrent_seeds">Seeds</string>
-    <string name="torrent_peers">Peers</string>
+    <string name="torrent_seeds">속도</string>
+    <string name="torrent_peers">피어</string>
     <string name="torrent_leechers">Leechers</string>
     <!-- connected (total) -->
     <string name="torrent_peers_template" formatted="false">%1$d (%2$d)</string>
@@ -227,8 +227,8 @@
     <string name="torrent_trackers">트래커</string>
     <string name="tracker_state_working">작업중</string>
     <string name="tracker_state_not_working">작업중이 아님</string>
-    <string name="tracker_state_error" formatted="false">Error: %1$s</string>
-    <string name="tracker_state_updating">Updating&#8230;</string>
+    <string name="tracker_state_error" formatted="false">오류: %1$s</string>
+    <string name="tracker_state_updating">갱신중&#8230;</string>
     <string name="tracker_state_not_contacted">아직 연결되지 않음</string>
     <string name="share_tracker_url">URL 공유</string>
     <string name="delete_selected_tracker">선택된 트래커를 삭제하시겠습니까?</string>
@@ -280,10 +280,10 @@
     <string name="add_feed_channel">채널 추가</string>
     <string name="feed_name">이름(선택항목)</string>
     <string name="feed_filter_prompt">Enter the words (separated by \"|\"), one of which must be in the name or enter regular expression. Torrents will be added only if this filter matches the torrent name</string>
-    <string name="feed_auto_download">Download new torrents automatically</string>
-    <string name="feed_use_regex">Use regular expression</string>
-    <string name="import_feed_channels">Import channels</string>
-    <string name="export_feed_channels">Export channels</string>
+    <string name="feed_auto_download">새 토렌트를 자동으로 다운로드</string>
+    <string name="feed_use_regex">정규표현식 사용</string>
+    <string name="import_feed_channels">채널 가져오기</string>
+    <string name="export_feed_channels">채널 내보내기</string>
     <string name="feed_last_update_template" formatted="false">Updated: %1$s</string>
     <string name="feed_last_update_never">never</string>
     <string name="error_cannot_add_channel">채널을 추가 할 수 없습니다.</string>
@@ -295,22 +295,22 @@
     <string name="mark_as_read">Mark as read</string>
     <string name="feed_item_list_empty">No articles</string>
     <string name="feed_items">Articles</string>
-    <string name="export_feeds_successfully" formatted="false">Channels saved successfully: %1$s</string>
-    <string name="import_feeds_successfully" formatted="false">Channels imported successfully</string>
-    <string name="error_import_feeds">Failed to import channels</string>
-    <string name="error_export_feeds">Failed to export channels</string>
+    <string name="export_feeds_successfully" formatted="false">정상적으로 채널을 저장하였습니다.: %1$s</string>
+    <string name="import_feeds_successfully" formatted="false">정상적으로 채널을 가져왔습니다.</string>
+    <string name="error_import_feeds">채널 가져오기에 실패하였습니다.</string>
+    <string name="error_export_feeds">채널 내보내기에 실패하였습니다.</string>
     <string name="feed_item_open_article_url">Open article</string>
     <string name="feeds_file_selection_dialog_title">Select a file with channels</string>
-    <string name="error_import_invalid_format">Invalid format</string>
+    <string name="error_import_invalid_format">유효하지 않은 형식입니다.</string>
     <string name="feed_do_not_download_immediately">Do not download immediately</string>
 
     <!-- Create torrent dialog -->
     <string name="create_torrent">토렌트 생성</string>
     <string name="file_or_folder_for_seeding">시드로 사용할 파일 또는 폴더</string>
     <string name="tracker_urls">트래커 URLs</string>
-    <string name="web_seed_urls">Web seed URLs</string>
+    <string name="web_seed_urls">웹 시드 URLs</string>
     <string name="comments">코멘트</string>
-    <string name="optional_hint">(optional)</string>
+    <string name="optional_hint">(선택사항)</string>
     <string name="piece_size">조각 크기</string>
     <string name="create_torrent_options">옵션</string>
     <string name="option_start_seeding">Start seeding</string>
@@ -372,8 +372,8 @@
     <string name="pref_max_active_uploads_title">Maximum active uploads</string>
     <string name="pref_max_active_downloads_title">Maximum active downloads</string>
     <string name="pref_max_active_torrents_title">Maximum active torrents</string>
-    <string name="pref_max_connections_per_torrent_title">Maximum number of connections per torrent</string>
-    <string name="pref_max_connections_per_torrent_summary">Minimum number of connections - 2</string>
+    <string name="pref_max_connections_per_torrent_title">토렌트당 최대 연결 갯수</string>
+    <string name="pref_max_connections_per_torrent_summary">최소 연결 갯수 - 2</string>
     <string name="pref_max_uploads_per_torrent_title">Maximum number of upload slots per torrent</string>
     <string name="pref_max_uploads_per_torrent_summary">Minimum number of slots - 2</string>
     <string name="pref_auto_manage_title">Auto manage</string>
@@ -383,30 +383,30 @@
     <string name="pref_theme_category">테마 설정</string>
     <string name="pref_theme_title">테마</string>
     <string-array name="pref_theme_entries">
-        <item>Light</item>
-        <item>Dark</item>
-        <item>Black</item>
+        <item>라이트</item>
+        <item>다크</item>
+        <item>블랙</item>
     </string-array>
     <string name="pref_notification_category">알림 설정</string>
     <string name="pref_torrent_finish_notify_title">토렌트 완료 알림</string>
-    <string name="pref_torrent_finish_notify_summary">Show a notification when a torrent finishes downloading</string>
+    <string name="pref_torrent_finish_notify_summary">토렌트 다운로드 완료시 알림 노출</string>
     <string name="pref_play_sound_notify_title">소리 재생</string>
     <string name="pref_notify_sound_title">알림 소리</string>
     <string name="pref_led_indicator_notify_title">LED indicator</string>
-    <string name="pref_led_indicator_color_notify_title">LED indicator color</string>
-    <string name="pref_vibration_notify_title">Vibration</string>
+    <string name="pref_led_indicator_color_notify_title">LED indicator 색상</string>
+    <string name="pref_vibration_notify_title">진동</string>
     <string name="pref_foreground_notification_category">Foreground notification</string>
-    <string name="pref_function_button_title">Function button</string>
+    <string name="pref_function_button_title">기능버튼</string>
     <string-array name="pref_function_button_entries">
-        <item>Pause/resume torrents</item>
-        <item>Add torrent</item>
+        <item>토렌트 일시정지/재개</item>
+        <item>토렌트 추가</item>
     </string-array>
     <!-- Behavior settings -->
-    <string name="pref_autostart_title">Autostart</string>
-    <string name="pref_autostart_summary">Run the app after start device</string>
-    <string name="pref_wifi_only_title">Wi-Fi only</string>
-    <string name="pref_wifi_only_summary">Download and upload only if Wi-Fi is connected</string>
-    <string name="pref_power_management_category">Power management</string>
+    <string name="pref_autostart_title">자동실행</string>
+    <string name="pref_autostart_summary">기기 시작시 앱 실행</string>
+    <string name="pref_wifi_only_title">Wi-Fi 만 사용</string>
+    <string name="pref_wifi_only_summary">Wi-Fi가 연결 되었을 때만 다운로드 또는 업로드</string>
+    <string name="pref_power_management_category">전원 관리</string>
     <string name="pref_keep_alive_title">Keep alive</string>
     <string name="pref_keep_alive_summary">If enabled, the application will remain running in the background. Shutdown when downloads complete is still respected</string>
     <string name="pref_shutdown_downloads_complete_title">Shutdown when downloads complete</string>
@@ -415,27 +415,27 @@
     <string name="pref_cpu_do_not_sleep_summary">Enabling this will increase the battery usage. Use this option if the download speed reduces when screen turns off</string>
     <string name="pref_download_and_upload_only_when_charging_title">Download and upload only when charging</string>
     <string name="pref_download_and_upload_only_when_charging_summary">If enabled, torrents will download/upload only when charging. All torrents will pause when not connected to charger</string>
-    <string name="pref_battery_control_title">Battery control</string>
+    <string name="pref_battery_control_title">배터리 제어</string>
     <string name="pref_custom_battery_control_title">Custom battery percentage</string>
     <string name="pref_custom_battery_control_value_title">Battery control percentage</string>
     <string name="pref_battery_control_summary" formatted="false">All torrents will be paused if the battery level goes below %1$d%%. Limit doesn\'t apply at the time of charging</string>
     <string name="pref_custom_battery_control_summary" formatted="false">Set a custom percentage to pause downloads at if the battery drops below the given threshold. Enabling this will ignore the default %1$d%% threshold</string>
     <string name="pref_custom_battery_control_dialog_summary" formatted="false">Setting a custom battery percentage for the application to watch for will have a negative impact on battery life while downloads are occurring. Are you sure you want to enable this?</string>
     <!-- Network settings -->
-    <string name="pref_proxy_settings_title">Proxy settings</string>
-    <string name="pref_enable_dht_title">Enable DHT</string>
+    <string name="pref_proxy_settings_title">프록시 설정</string>
+    <string name="pref_enable_dht_title">DHT 활성</string>
     <string name="pref_enable_dht_summary">It allows BitTorrent-clients to find each other without the use of tracker. Enabling this will increase the battery usage</string>
-    <string name="pref_enable_lsd_title">Enable LSD</string>
+    <string name="pref_enable_lsd_title">LSD 활성</string>
     <string name="pref_enable_lsd_summary">It\'s designed to support the discovery of local BitTorrent peers, aiming to minimize the traffic</string>
-    <string name="pref_enable_utp_title">Enable μTP</string>
+    <string name="pref_enable_utp_title">μTP 활성</string>
     <string name="pref_enable_utp_summary">It\'s intended to mitigate poor latency and other congestion control issues found in conventional BitTorrent over TCP, while providing reliable, ordered delivery</string>
-    <string name="pref_enable_upnp_title">Enable UPnP</string>
-    <string name="pref_enable_natpmp_title">Enable NAT-PMP</string>
-    <string name="pref_port_settings_category">Port settings</string>
-    <string name="pref_use_random_port_title">Use random port</string>
-    <string name="pref_port_title">Port</string>
-    <string name="pref_encryption_category">Encryption</string>
-    <string name="pref_enc_mode_title">Encryption mode</string>
+    <string name="pref_enable_upnp_title">UPnP 활성</string>
+    <string name="pref_enable_natpmp_title">NAT-PMP 활성</string>
+    <string name="pref_port_settings_category">포트 설정</string>
+    <string name="pref_use_random_port_title">랜덤 포트 사용</string>
+    <string name="pref_port_title">포트</string>
+    <string name="pref_encryption_category">암호화</string>
+    <string name="pref_enc_mode_title">암호화 모드</string>
     <string-array name="pref_enc_mode_entries">
         <item>Prefer encryption</item>
         <item>Require encryption</item>
@@ -443,13 +443,13 @@
     </string-array>
     <string name="pref_enc_in_connections_title">Incoming connections</string>
     <string name="pref_enc_out_connections_title">Outgoing connections</string>
-    <string name="pref_ip_filtering_category">IP filtering</string>
-    <string name="pref_enable_ip_filtering_title">Enable IP filtering</string>
+    <string name="pref_ip_filtering_category">IP 필터링</string>
+    <string name="pref_enable_ip_filtering_title">IP 필터링 활성화</string>
     <string name="pref_enable_ip_filtering_summary">Using IP filtering increases memory usage. Depending on the file size, the filter may take some time to be applied at startup</string>
     <string name="pref_ip_filtering_file_title">Path to filter file (.dat, .p2p)</string>
     <string name="pref_show_nat_errors">Show NAT errors</string>
     <!-- Proxy settings -->
-    <string name="pref_proxy_type_title">Proxy type</string>
+    <string name="pref_proxy_type_title">프록시 타입</string>
     <string-array name="pref_proxy_type_entries">
         <item>(None)</item>
         <item>SOCKS4</item>
