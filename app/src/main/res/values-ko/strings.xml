@@ -344,16 +344,16 @@
     <!-- Settings -->
     
     <!-- Headers -->
-    <string name="pref_header_appearance">Appearance</string>
-    <string name="pref_header_behavior">Behavior</string>
+    <string name="pref_header_appearance">인터페이스</string>
+    <string name="pref_header_behavior">동작설정</string>
     <string name="pref_header_storage">저장소</string>
     <string name="pref_header_limitations">제한설정</string>
     <string name="pref_header_network">네트워크</string>
-    <string name="pref_header_scheduling">Scheduling</string>
+    <string name="pref_header_scheduling">스케쥴링</string>
     <string name="pref_header_feed">RSS</string>
     <string name="pref_header_streaming">스트리밍</string>
     <!-- Storage settings -->
-    <string name="pref_save_torrents_in_title">Save torrents in</string>
+    <string name="pref_save_torrents_in_title">토렌트 저장위치</string>
     <string name="pref_move_after_download_title">Move after download</string>
     <string name="pref_move_after_download_in_title">Move after download in</string>
     <string name="pref_save_torrent_files_title">Save .torrent files</string>
@@ -424,11 +424,11 @@
     <!-- Network settings -->
     <string name="pref_proxy_settings_title">프록시 설정</string>
     <string name="pref_enable_dht_title">DHT 활성</string>
-    <string name="pref_enable_dht_summary">It allows BitTorrent-clients to find each other without the use of tracker. Enabling this will increase the battery usage</string>
+    <string name="pref_enable_dht_summary">BitTorrent 클라이언트는 트래커를 사용하지 않고도 서로를 찾을 수 있습니다. 이를 활성화하면 배터리 사용량이 증가합니다</string>
     <string name="pref_enable_lsd_title">LSD 활성</string>
-    <string name="pref_enable_lsd_summary">It\'s designed to support the discovery of local BitTorrent peers, aiming to minimize the traffic</string>
+    <string name="pref_enable_lsd_summary">트래픽을 최소화하기 위해 로컬 BitTorrent 피어의 발견을 지원하도록 설계되었습니다.</string>
     <string name="pref_enable_utp_title">μTP 활성</string>
-    <string name="pref_enable_utp_summary">It\'s intended to mitigate poor latency and other congestion control issues found in conventional BitTorrent over TCP, while providing reliable, ordered delivery</string>
+    <string name="pref_enable_utp_summary">TCP를 통한 기존의 BitTorrent에서 발생하는 지연 시간 및 기타 혼잡 제어 문제를 완화하면서도 안정적인 명령 전송을 제공하기 위해 고안되었습니다.</string>
     <string name="pref_enable_upnp_title">UPnP 활성</string>
     <string name="pref_enable_natpmp_title">NAT-PMP 활성</string>
     <string name="pref_port_settings_category">포트 설정</string>
@@ -437,17 +437,17 @@
     <string name="pref_encryption_category">암호화</string>
     <string name="pref_enc_mode_title">암호화 모드</string>
     <string-array name="pref_enc_mode_entries">
-        <item>Prefer encryption</item>
-        <item>Require encryption</item>
-        <item>Disable encryption</item>
+        <item>암호화 선호</item>
+        <item>암호화 필수</item>
+        <item>암호화 비활성화</item>
     </string-array>
-    <string name="pref_enc_in_connections_title">Incoming connections</string>
-    <string name="pref_enc_out_connections_title">Outgoing connections</string>
+    <string name="pref_enc_in_connections_title">들어오는 연결</string>
+    <string name="pref_enc_out_connections_title">나가는 연결</string>
     <string name="pref_ip_filtering_category">IP 필터링</string>
     <string name="pref_enable_ip_filtering_title">IP 필터링 활성화</string>
-    <string name="pref_enable_ip_filtering_summary">Using IP filtering increases memory usage. Depending on the file size, the filter may take some time to be applied at startup</string>
-    <string name="pref_ip_filtering_file_title">Path to filter file (.dat, .p2p)</string>
-    <string name="pref_show_nat_errors">Show NAT errors</string>
+    <string name="pref_enable_ip_filtering_summary">IP 필터링을 사용하면 메모리 사용량이 증가합니다. 파일 크기에 따라 시작시 필터를 적용하는 데 시간이 걸릴 수 있습니다.</string>
+    <string name="pref_ip_filtering_file_title">필터 파일 경로(.dat, .p2p)</string>
+    <string name="pref_show_nat_errors">NAT 오류 보기</string>
     <!-- Proxy settings -->
     <string name="pref_proxy_type_title">프록시 타입</string>
     <string-array name="pref_proxy_type_entries">
