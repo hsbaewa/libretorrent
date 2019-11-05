@@ -1,12 +1,14 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'
 
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
 
     defaultConfig {
-        applicationId "org.proninyaroslav.libretorrent"
-        minSdkVersion 15 /* Officially Android Jelly Bean (< 4.4) support is dropped in libtorrent4j */
+        applicationId "kr.co.hs.torrent"
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 11
         /*
@@ -20,6 +22,7 @@ android {
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
         }
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -67,10 +70,17 @@ repositories {
     }
 }
 
-def LIBTORRENT4J_VERSION='1.2.0.22'
+def LIBTORRENT4J_VERSION = '1.2.0.22'
+def multidex_version = '2.0.1'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.google.firebase:firebase-core:17.2.1'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-ads:18.2.0'
+    implementation 'androidx.multidex:multidex:' + multidex_version
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.0.0'
@@ -83,7 +93,6 @@ dependencies {
 
     /* Don't use Commons IO >= 2.6, because they uses Java NIO, supported only from API 26 */
     implementation 'commons-io:commons-io:2.5'
-    implementation 'ch.acra:acra:4.11'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.takisoft.preferencex:preferencex:1.0.0'
     implementation 'com.github.aakira:expandable-layout:1.6.0@aar'

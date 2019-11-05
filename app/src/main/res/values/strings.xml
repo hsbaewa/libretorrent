@@ -515,4 +515,8 @@
     <string name="about_website">More information and also to help the project: https://gitlab.com/proninyaroslav/libretorrent</string>
     <string name="about_description">HsTorrent is a Free as in Freedom torrent client for Android 4+, based on libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nHsTorrent is free software, released under the terms of the GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Changelog</string>
+
+    <!-- admob -->
+    <string name="Ad_Native_Test" tools:ignore="MissingTranslation">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="Ad_Native_Bottom" tools:ignore="MissingTranslation">ca-app-pub-3940256099942544/2247696110</string>
 </resources>
