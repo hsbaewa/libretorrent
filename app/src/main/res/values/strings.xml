@@ -517,5 +517,5 @@
 
     <!-- admob -->
     <string name="Ad_Native_Test" tools:ignore="MissingTranslation">ca-app-pub-3940256099942544/2247696110</string>
-    <string name="Ad_Native_Bottom" tools:ignore="MissingTranslation">ca-app-pub-5495291963068964/5030228967</string>
+    <string name="Ad_Native_Bottom" tools:ignore="MissingTranslation">ca-app-pub-3940256099942544/2247696110</string>
 </resources>
