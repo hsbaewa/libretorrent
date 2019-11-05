@@ -75,7 +75,7 @@
     <string name="seeding_torrent_notify_template" formatted="false">%1$s \u2022 \u2191 %2$s/с \u2022 %3$s</string>
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Загружается: %1$d Всего: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent запущен в фоне</string>
+    <string name="app_running_in_the_background">HsTorrent запущен в фоне</string>
     <string name="network_online">Статус сети: Онлайн</string>
     <string name="network_offline">Статус сети: Оффлайн</string>
 
@@ -490,8 +490,8 @@
     <string name="pref_streaming_error">Выбранный порт или имя хоста занято или некорректно. Пожалуйста, исправьте это</string>
 
     <!-- About dialog -->
-    <string name="about_title">О LibreTorrent</string>
+    <string name="about_title">О HsTorrent</string>
     <string name="about_website">Больше информации, а также помочь проекту: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent - свободный торрент-клиент для Android 4+, основанный на библиотеке libtorrent (Java обёртка libtorrent4j https://github.com/aldenml/libtorrent4j).\n\nLibreTorrent является свободным программным обеспечением, выпущенным в соответствии с условиями лицензии GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_description">HsTorrent - свободный торрент-клиент для Android 4+, основанный на библиотеке libtorrent (Java обёртка libtorrent4j https://github.com/aldenml/libtorrent4j).\n\nHsTorrent является свободным программным обеспечением, выпущенным в соответствии с условиями лицензии GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Изменения</string>
 </resources>

@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">डाउनलोड कर रहा है: %1$d Total: %2$d</string>
-     <string name="app_running_in_the_background">LibreTorrent पृष्ठभूमि में चल रहा है</string>
+     <string name="app_running_in_the_background">HsTorrent पृष्ठभूमि में चल रहा है</string>
     <string name="network_online">नेटवर्क स्थिति: ऑनलाइन</string>
     <string name="network_offline">नेटवर्क स्थिति: ऑफ़लाइन</string>
 
@@ -511,8 +511,8 @@
     <string name="pref_streaming_error">स्ट्रीमिंग के लिए चयनित पोर्ट या होस्टनाम व्यस्त या गलत है। कृपया इसे ठीक करे</string>
 
     <!-- About dialog -->
-      <string name="about_title">LibreTorrent के बारे में</string>
+      <string name="about_title">HsTorrent के बारे में</string>
     <string name="about_website">अधिक जानकारी https://gitlab.com/proninyaroslav/libretorrent पर उपलब्ध है</string>
-    <string name="about_description">LibreTorrent एक फ्री है जैसा कि एंड्रॉइड 4 के लिए फ्रीडम टोरेंट क्लाइंट में है, जो कि libtorrent पर आधारित है। \ n \ nLibreTorrent मुफ्त सॉफ्टवेयर है</string>
+    <string name="about_description">HsTorrent एक फ्री है जैसा कि एंड्रॉइड 4 के लिए फ्रीडम टोरेंट क्लाइंट में है, जो कि libtorrent पर आधारित है। \ n \ nHsTorrent मुफ्त सॉफ्टवेयर है</string>
     <string name="about_changelog">बदलाव का</string>
 </resources>

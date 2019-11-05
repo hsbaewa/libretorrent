@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Pobieranie: %1$d Razem: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent działa w tle</string>
+    <string name="app_running_in_the_background">HsTorrent działa w tle</string>
     <string name="network_online">Online</string>
     <string name="network_offline">Offline</string>
 
@@ -509,8 +509,8 @@
     <string name="pref_streaming_error">Wybrany port lub nazwa hosta do przesyłania strumieniowego jest zajęta lub niepoprawna. Proszę napraw to</string>
 
     <!-- About dialog -->
-    <string name="about_title">Informacje o LibreTorrent</string>
+    <string name="about_title">Informacje o HsTorrent</string>
     <string name="about_website">Więcej informacji a także pomóc projekt: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent jest Wolnym klientem sieci Torrent dla urządzeń z Android 4 i nowszymi, opartym na libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nLibreTorrent jest Wolnym oprogramowaniem wydanym na zasadach wyrażonych w GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_description">HsTorrent jest Wolnym klientem sieci Torrent dla urządzeń z Android 4 i nowszymi, opartym na libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nHsTorrent jest Wolnym oprogramowaniem wydanym na zasadach wyrażonych w GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Changelog</string>
 </resources>

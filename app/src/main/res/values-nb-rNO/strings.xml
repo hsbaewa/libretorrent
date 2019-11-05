@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Laster ned: %1$d Totalt: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent kjører i bakgrunnen</string>
+    <string name="app_running_in_the_background">HsTorrent kjører i bakgrunnen</string>
     <string name="network_online">Nettverksstatus: Tilkoblet</string>
     <string name="network_offline">Nettverksstatus: Frakoblet</string>
 
@@ -509,9 +509,9 @@
     <string name="pref_streaming_error">Valgte port eller vertsnavn for streaming er opptatt eller feil. Vennligst reparer det</string>
 
     <!-- About dialog -->
-    <string name="about_title">Om LibreTorrent</string>
+    <string name="about_title">Om HsTorrent</string>
     <string name="about_website">Mer informasjon og også for å hjelpe prosjektet: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent er fri programave-torrentklient for Android 4+, basert på libtorrent (Java-omslag libtorrent4j https://github.com/aldenml/libtorrent4j)
-lib.\n\nLibreTorrent er fri programvare. gitt ut med GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html </string>
+    <string name="about_description">HsTorrent er fri programave-torrentklient for Android 4+, basert på libtorrent (Java-omslag libtorrent4j https://github.com/aldenml/libtorrent4j)
+lib.\n\nHsTorrent er fri programvare. gitt ut med GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html </string>
     <string name="about_changelog">Endringslogg</string>
 </resources>

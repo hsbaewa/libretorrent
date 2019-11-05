@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Atsiunčia: %1$d Iš viso: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent veikia foniniame rėžime</string>
+    <string name="app_running_in_the_background">HsTorrent veikia foniniame rėžime</string>
     <string name="network_online">Tinklo būklė: Prisijungęs</string>
     <string name="network_offline">Tinklo būklė: Atsijungęs</string>
 
@@ -508,8 +508,8 @@
     <string name="pref_streaming_error">Pasirinktas uostas ar prieglobos vardas yra užimtas arba neteisingas. Prašome ją išspręsti</string>
 
     <!-- About dialog -->
-    <string name="about_title">Apie LibreTorrent</string>
+    <string name="about_title">Apie HsTorrent</string>
     <string name="about_website">Daugiau informacijos ir taip pat padėti projektą: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent yra laisvas kaip pati laisvė torrentų klientas Android 4+, paremtas libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nLibreTorrent yra nemokama programa, išleista pagal GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_description">HsTorrent yra laisvas kaip pati laisvė torrentų klientas Android 4+, paremtas libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nHsTorrent yra nemokama programa, išleista pagal GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Pakeitimų žurnalas</string>
 </resources>

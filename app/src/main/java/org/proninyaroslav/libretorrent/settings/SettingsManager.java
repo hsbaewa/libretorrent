@@ -41,7 +41,7 @@ public class SettingsManager
         public static final boolean playSoundNotify = true;
         public static final boolean ledIndicatorNotify = true;
         public static final boolean vibrationNotify = true;
-        public static int theme(Context context) { return Integer.parseInt(context.getString(R.string.pref_theme_light_value)); }
+        public static int theme(Context context) { return Integer.parseInt(context.getString(R.string.pref_theme_dark_value)); }
         public static int ledIndicatorColorNotify(Context context) { return ContextCompat.getColor(context, R.color.primary); }
         public static int funcButton(Context context) { return Integer.parseInt(context.getString(R.string.pref_function_button_pause_value)); }
         /* Behavior settings */

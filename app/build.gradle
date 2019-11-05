@@ -71,6 +71,7 @@ repositories {
 }
 
 def LIBTORRENT4J_VERSION = '1.2.0.22'
+def multidex_version = '2.0.1'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
