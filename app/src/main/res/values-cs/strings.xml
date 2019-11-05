@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Stahování: %1$d Celkem: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent běží na pozadí</string>
+    <string name="app_running_in_the_background">HsTorrent běží na pozadí</string>
     <string name="network_online">Stav sítě: Online</string>
     <string name="network_offline">Stav sítě: Offline</string>
 
@@ -509,8 +509,8 @@
     <string name="pref_streaming_error">Vybraný port nebo název hostitele pro streamování je obsazeno nebo nesprávné. Opravte to prosím</string>
 
     <!-- About dialog -->
-    <string name="about_title">O LibreTorrent</string>
+    <string name="about_title">O HsTorrent</string>
     <string name="about_website">Více informací a také pomáhat projektu: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent je volně dostupný torrent klient pro Android 4+, založený na libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nLibreTorrent je volně dostupný software, vydaný podle podmínek GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_description">HsTorrent je volně dostupný torrent klient pro Android 4+, založený na libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nHsTorrent je volně dostupný software, vydaný podle podmínek GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Seznam změn</string>
 </resources>

@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Téléchargement: %1$d Total: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent fonctionne en arrière-plan</string>
+    <string name="app_running_in_the_background">HsTorrent fonctionne en arrière-plan</string>
     <string name="network_online">État du réseau: En ligne</string>
     <string name="network_offline">État du réseau: Hors ligne</string>
 
@@ -508,8 +508,8 @@
     <string name="pref_streaming_error">Le port ou nom d\'hôte sélectionné pour la diffusion en continu est occupé ou incorrect. S\'il vous plaît le réparer</string>
 
     <!-- About dialog -->
-    <string name="about_title">À propos de LibreTorrent</string>
+    <string name="about_title">À propos de HsTorrent</string>
     <string name="about_website">Plus d\'information et aussi pour aider le projet: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent est un Free as in Freedom torrent client pour Android 4+, basé sur libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nLibreTorrent est un logiciel libre, publié sous les termes de la GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_description">HsTorrent est un Free as in Freedom torrent client pour Android 4+, basé sur libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nHsTorrent est un logiciel libre, publié sous les termes de la GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Changelog</string>
 </resources>
