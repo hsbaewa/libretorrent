@@ -10,12 +10,12 @@ android {
         applicationId "kr.co.hs.torrent"
         minSdkVersion 16
         targetSdkVersion 28
-        versionCode 11
+        versionCode 1
         /*
          * Convection:
          *  major.minor.[revision][-some_info]
          */
-        versionName "1.9.1"
+        versionName "0.1"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
