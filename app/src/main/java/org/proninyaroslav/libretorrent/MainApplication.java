@@ -19,23 +19,32 @@
 
 package org.proninyaroslav.libretorrent;
 
-import android.app.Application;
 import android.content.Context;
+import android.provider.Settings;
+import android.util.Log;
 
-import org.acra.ACRA;
-import org.acra.ReportingInteractionMode;
-import org.acra.annotation.ReportsCrashes;
+import androidx.multidex.MultiDexApplication;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.MobileAds;
+
 import org.greenrobot.eventbus.EventBus;
 import org.proninyaroslav.libretorrent.core.utils.Utils;
 
-@ReportsCrashes(mailTo = "proninyaroslav@mail.ru",
-                mode = ReportingInteractionMode.DIALOG,
-                reportDialogClass = ErrorReportActivity.class)
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
-public class MainApplication extends Application
+public class MainApplication extends MultiDexApplication
 {
     @SuppressWarnings("unused")
     private static final String TAG = MainApplication.class.getSimpleName();
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        MobileAds.initialize(this, "[admob_app_id]");
+    }
 
     @Override
     protected void attachBaseContext(Context base)
@@ -43,7 +52,35 @@ public class MainApplication extends Application
         super.attachBaseContext(base);
 
         Utils.migrateTray2SharedPreferences(this);
-        ACRA.init(this);
         EventBus.builder().logNoSubscriberMessages(false).installDefaultEventBus();
+    }
+
+    public AdRequest getAdRequest() {
+        AdRequest.Builder builder = new AdRequest.Builder();
+        if (BuildConfig.DEBUG) {
+            try {
+                String deviceId = getMD5(Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID));
+                builder.addTestDevice(getMD5(deviceId));
+            } catch (Exception ignore) {
+                Log.d("a","a");
+            }
+        }
+        return builder.build();
+    }
+
+    public String getMD5(String str) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            byte[] messageDigest = md.digest(str.getBytes());
+
+            String strMD5;
+            for(strMD5 = (new BigInteger(1, messageDigest)).toString(16); strMD5.length() < 32; strMD5 = "0" + strMD5) {
+            }
+
+            return strMD5;
+        } catch (NoSuchAlgorithmException var5) {
+            var5.printStackTrace();
+            return "00000000000000000000000000000000";
+        }
     }
 }

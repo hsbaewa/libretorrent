@@ -51,8 +51,6 @@ import android.widget.TextView;
 
 import org.libtorrent4j.FileStorage;
 
-import org.acra.ACRA;
-import org.acra.ReportField;
 import org.apache.commons.io.IOUtils;
 import org.proninyaroslav.libretorrent.R;
 import org.proninyaroslav.libretorrent.core.BencodeFileItem;
@@ -275,10 +273,12 @@ public class Utils
         if (error == null)
             return;
 
-        if (comment != null)
-            ACRA.getErrorReporter().putCustomData(ReportField.USER_COMMENT.toString(), comment);
+        //TODO : 여기에 Firebase 로그 추가
 
-        ACRA.getErrorReporter().handleSilentException(error);
+//        if (comment != null)
+//            ACRA.getErrorReporter().putCustomData(ReportField.USER_COMMENT.toString(), comment);
+//
+//        ACRA.getErrorReporter().handleSilentException(error);
     }
 
     public static int dpToPx(Context context, float dp)

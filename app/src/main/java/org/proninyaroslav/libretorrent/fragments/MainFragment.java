@@ -30,6 +30,12 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
+
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdLoader;
+import com.google.android.gms.ads.formats.NativeAdOptions;
+import com.google.android.gms.ads.formats.UnifiedNativeAd;
+import com.google.android.gms.ads.formats.UnifiedNativeAdView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import androidx.fragment.app.Fragment;
@@ -61,6 +67,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -155,11 +162,15 @@ public class MainFragment extends Fragment
     private SharedPreferences pref;
     private Throwable sentError;
 
+    private UnifiedNativeAdView adView;
+
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         View v = inflater.inflate(R.layout.fragment_main, container, false);
         coordinatorLayout = v.findViewById(R.id.main_coordinator_layout);
+
+        adView = v.findViewById(R.id.adView);
 
         return v;
     }
@@ -330,6 +341,60 @@ public class MainFragment extends Fragment
                 actionMode.setTitle(String.valueOf(adapter.getSelectedItemCount()));
             }
         }
+
+        String adUnitId;
+        if (BuildConfig.DEBUG)
+            adUnitId = getString(R.string.Ad_Native_Test);
+        else
+            adUnitId = getString(R.string.Ad_Native_Bottom);
+
+        AdLoader adLoader = new AdLoader.Builder(getContext(), adUnitId)
+                .forUnifiedNativeAd(new UnifiedNativeAd.OnUnifiedNativeAdLoadedListener() {
+                    @Override
+                    public void onUnifiedNativeAdLoaded(UnifiedNativeAd unifiedNativeAd) {
+                        // Show the ad.
+                        ImageView icon = adView.findViewById(R.id.ad_app_icon);
+                        icon.setImageDrawable(unifiedNativeAd.getIcon().getDrawable());
+                        adView.setIconView(icon);
+
+                        TextView headlineView = adView.findViewById(R.id.ad_headline);
+                        headlineView.setText(unifiedNativeAd.getHeadline());
+                        adView.setHeadlineView(headlineView);
+
+                        TextView bodyView = adView.findViewById(R.id.ad_body);
+                        bodyView.setText(unifiedNativeAd.getBody());
+                        adView.setBodyView(bodyView);
+
+                        adView.setNativeAd(unifiedNativeAd);
+
+                        adView.setVisibility(View.VISIBLE);
+                    }
+                })
+                .withNativeAdOptions(new NativeAdOptions.Builder()
+                        // Methods in the NativeAdOptions.Builder class can be
+                        // used here to specify individual options settings.
+                        .build())
+                .withAdListener(new AdListener() {
+                    @Override
+                    public void onAdOpened() {
+                        super.onAdOpened();
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(int i) {
+                        super.onAdFailedToLoad(i);
+                    }
+                })
+                .build();
+        MainApplication app = (MainApplication) getContext().getApplicationContext();
+        adLoader.loadAd(app.getAdRequest());
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        if (adView != null)
+            adView.destroy();
     }
 
     @Override
