@@ -393,10 +393,10 @@
     <string name="pref_torrent_finish_notify_summary">토렌트 다운로드 완료시 알림 노출</string>
     <string name="pref_play_sound_notify_title">소리 재생</string>
     <string name="pref_notify_sound_title">알림 소리</string>
-    <string name="pref_led_indicator_notify_title">LED indicator</string>
-    <string name="pref_led_indicator_color_notify_title">LED indicator 색상</string>
+    <string name="pref_led_indicator_notify_title">LED 알림등</string>
+    <string name="pref_led_indicator_color_notify_title">LED 알림등 색상</string>
     <string name="pref_vibration_notify_title">진동</string>
-    <string name="pref_foreground_notification_category">Foreground notification</string>
+    <string name="pref_foreground_notification_category">상태 알림</string>
     <string name="pref_function_button_title">기능버튼</string>
     <string-array name="pref_function_button_entries">
         <item>토렌트 일시정지/재개</item>
