@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Hs토렌트</string>
     <!-- Global string -->
     <string name="ok">확인</string>
     <string name="cancel">취소</string>
@@ -83,7 +84,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">다운로드중: %1$d 전체: %2$d</string>
-    <string name="app_running_in_the_background">LibreTorrent가 백그라운드에서 실행중입니다.</string>
+    <string name="app_running_in_the_background">Hs토렌트가 백그라운드에서 실행중입니다.</string>
     <string name="network_online">네트워크 상태: 온라인</string>
     <string name="network_offline">네트워크 상태: 오프라인</string>
 
@@ -510,8 +511,8 @@
     <string name="pref_streaming_error">스트리밍을 위해 선택된 호스트 또는 포트가 사용중이거나 올바르지 않습니다. 다시 확인해 주세요.</string>
 
     <!-- About dialog -->
-    <string name="about_title">About LibreTorrent</string>
+    <string name="about_title">About Hs토렌트</string>
     <string name="about_website">More information and also to help the project: https://gitlab.com/proninyaroslav/libretorrent</string>
-    <string name="about_description">LibreTorrent is a Free as in Freedom torrent client for Android 4+, based on libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nLibreTorrent is free software, released under the terms of the GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
+    <string name="about_description">Hs토렌트 is a Free as in Freedom torrent client for Android 4+, based on libtorrent (Java wrapper libtorrent4j https://github.com/aldenml/libtorrent4j) lib.\n\nHs토렌트 is free software, released under the terms of the GNU General Public License v3 (GPLv3)\nhttp://www.gnu.org/copyleft/gpl.html</string>
     <string name="about_changelog">Changelog</string>
 </resources>

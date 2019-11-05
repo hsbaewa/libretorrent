@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">Downloading: %1$d Total: %2$d</string>
-    <string name="app_running_in_the_background">പശ്ചാത്തലത്തിൽ പ്രവർത്തിപ്പിക്കുന്ന LibreTorrent</string>
+    <string name="app_running_in_the_background">പശ്ചാത്തലത്തിൽ പ്രവർത്തിപ്പിക്കുന്ന HsTorrent</string>
     <string name="network_online">നെറ്റ്വർക്ക് സ്റ്റാറ്റസ്: ഓൺലൈനിൽ</string>
     <string name="network_offline">നെറ്റ്വർക്ക് സ്റ്റാറ്റസ്: ഓഫ്ലൈൻ</string>
 
@@ -510,8 +510,8 @@
     <string name="pref_streaming_error">സ്ട്രീമിംഗിനായി തിരഞ്ഞെടുത്ത പോർട്ട് അല്ലെങ്കിൽ ഹോസ്റ്റ് നെയിം തിരക്കിലാണ് അല്ലെങ്കിൽ തെറ്റാണ്. ദയവായി ഇത് ശരിയാക്കുക</string>
 
     <!-- About dialog -->
-    <string name="about_title">LibreTorrent നെക്കുറിച്ച്</string>
+    <string name="about_title">HsTorrent നെക്കുറിച്ച്</string>
     <string name="about_website">കൂടുതൽ വിവരങ്ങൾ https://gitlab.com/proninyaroslav/libretorrent ൽ ലഭ്യമാണ്</string>
-    <string name="about_description">Libtorrent നെ അടിസ്ഥാനമാക്കിയുള്ള ആൻഡ്രോയിഡിന്റെ 4+ ഫ്രീഡം ടോറന്റ് ക്ലയന്റ് ആയിട്ടാണ് ഫ്ലാഷ് ടോർട്ടന്റ് ഫ്രീ. \ N \ nLibreTorrent സ്വതന്ത്ര സോഫ്റ്റ്വെയർ ആണ്</string>
+    <string name="about_description">HsTorrent നെ അടിസ്ഥാനമാക്കിയുള്ള ആൻഡ്രോയിഡിന്റെ 4+ ഫ്രീഡം ടോറന്റ് ക്ലയന്റ് ആയിട്ടാണ് ഫ്ലാഷ് ടോർട്ടന്റ് ഫ്രീ. \ N \ nHsTorrent സ്വതന്ത്ര സോഫ്റ്റ്വെയർ ആണ്</string>
     <string name="about_changelog">ചെയ്ഞ്ച്ലോഗ്</string>
 </resources>

@@ -83,7 +83,7 @@
     <!-- status • name -->
     <string name="other_torrent_notify_template" formatted="false">%1$s \u2022 %2$s</string>
     <string name="torrent_count_notify_template" formatted="false">பதிவிறக்குகிறது: %1$d மொத்தம்: %2$d</string>
-   <string name="app_running_in_the_background">பின்புலத்தில் LibreTorrent இயங்கும்</string>
+   <string name="app_running_in_the_background">பின்புலத்தில் HsTorrent இயங்கும்</string>
     <string name="network_online">நெட்வொர்க் நிலை: ஆன்லைன்</string>
     <string name="network_offline">நெட்வொர்க் நிலை: ஆஃப்லைன்</string>
 
@@ -511,8 +511,8 @@
     <string name="pref_streaming_error">ஸ்ட்ரீமிங்கிற்கான தேர்ந்தெடுத்த துறை அல்லது புரவலன் பெயர் பிஸியாக அல்லது தவறானது. தயவுசெய்து அதை சரிசெய்யவும்</string>
 
     <!-- About dialog -->
-    <string name="about_title">LibreTorrent பற்றி</string>
+    <string name="about_title">HsTorrent பற்றி</string>
     <string name="about_website">மேலும் தகவலுக்கு https://gitlab.com/proninyaroslav/libretorrent இல் கிடைக்கும்</string>
-    <string name="about_description">ஃப்ளாஷ் டாரண்ட் ஆனது அண்ட்ராய்டிற்கான ஃப்ரீடம் டொரண்ட் கிளையண்ட்டில் ஒரு இலவசமானது, லிப்டோரண்ட் அடிப்படையிலானது. \ N \ nLibreTorrent இலவச மென்பொருள்</string>
+    <string name="about_description">ஃப்ளாஷ் டாரண்ட் ஆனது அண்ட்ராய்டிற்கான ஃப்ரீடம் டொரண்ட் கிளையண்ட்டில் ஒரு இலவசமானது, லிப்டோரண்ட் அடிப்படையிலானது. \ N \ nHsTorrent இலவச மென்பொருள்</string>
     <string name="about_changelog">சேஞ்ச்</string>
 </resources>
